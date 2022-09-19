@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #e9e9e9;
+        }
+
+  
+
+        section {
+         
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .parteE {
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+
+        }
+
+        .parteD {
+
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+
+        }
+
+ 
+
+        @media (max-width: 600px) {
+           section {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        HEADER/BANNER/LOGO
+    </header>
+    <section>
+        <div class="parteE">
+            <a href="cadastro.html"><button type="button" onclick="">Cadastro</button></a>
+            <a href=""><button type="button">Manutenções</button></a>
+        </div>
+        <div class="parteD">
+            <a href=""><button type="button">Relatorios</button></a>
+            <a href=""> <button type="button">Diversos</button></a>
+        </div>
+    </section>
+</body>
+
+</html>
