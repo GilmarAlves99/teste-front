@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   
-  <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
 
         <button type="button" onclick="AbrirConsulta()">Consultar</button>
         <button type="button" onclick="IncluirConsulta()">Incluir</button>
-        <button type="button" onclick="AbrirConsulta()">Alterar</button>
+        <button type="button" onclick="AlterarConsulta()">Alterar</button>
         <button type="button" onclick="ExcluirConsulta()">Excluir</button>
 
     </section>
@@ -32,15 +32,13 @@
                     <td style="width:100%">DESCRIÇÃO</td>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td id="codigo"> 31</td>
-                    <td id="descricao">Adminsitração</td>
-                </tr>
-           
+            <tbody id="tbody">
+
+
             </tbody>
         </table>
-        <button class="salver" id="botaosalvar">SALVAR</button>
+        <button class="salver" type="submit" id="botaosalvar"></button>
+        <p id="result"></p>
     </div>
     <script src="js/cadastroD.js"></script>
 </body>

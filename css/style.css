@@ -1,7 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: #e9e9e9;
+    
 }
 
 header {
@@ -32,7 +37,7 @@ section {
 
 
 button {
-    box-sizing: border-box;
+ 
     margin: 5px;
 
     text-transform: uppercase;
